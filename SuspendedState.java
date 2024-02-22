@@ -13,8 +13,8 @@ public class SuspendedState implements AccountState{
     public void close(Account account){
         
     }
-    public String toString(){
+    /*public String toString(){
         Account account = new Account();
         return "Current Balance: " + account.getBalance() +"\nAccount Number" + account.getAccountnNumber();
-    }
+    }*/
 }

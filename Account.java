@@ -9,18 +9,22 @@ public class Account{
 
     public Account(String accountNumber, Double balance){
         this.accountNumber = accountNumber;
-        this. balance = balance;
+        this.balance = balance;
         accountState = new ActiveState();
+        
     }
     public Account(){
 
+    }
+    public String toString(){
+        return "Current Balance: " + getBalance() +"\nAccount Number" + getAccountnNumber();
     }
 
     public void suspend(){
         accountState.suspend(this);
     }
     public void activate(){
-        accountState.activate(this);;
+        accountState.activate(this);
     }
     public void close(){
         accountState.close(this);
@@ -29,7 +33,7 @@ public class Account{
         accountState.deposit(deposit);
     }
     public void withdraw(Double withdraw){
-        accountState.withdraw(withdraw);;
+        accountState.withdraw(withdraw);
     }
 
     public AccountState getState(){
@@ -48,6 +52,7 @@ public class Account{
         this.balance = balance;
     }
     public Double getBalance(){
+        System.out.println(balance+"as");
         return balance;
     }
 }
