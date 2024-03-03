@@ -6,4 +6,4 @@ Logic:
 If the account is active You can either suspend it or close it. If the account is suspended You can either activate or close it. No deposits and withdrawals allowed. If the account is closed You can neither suspend nor activate it. No deposits and withdrawals allowed.
 
 # UML DIAGRAM
-![Blank diagram (8)](https://github.com/SimounReyes/statePattern/assets/142649580/d382bca4-b291-46c2-8074-e72fd291e39a)
+![Blank diagram (9)](https://github.com/SimounReyes/statePattern/assets/142649580/0f8a94a7-dac5-4474-9683-81ea1e9e6d3c)
