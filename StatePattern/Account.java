@@ -10,6 +10,7 @@ public class Account {
     public Account(String accountNumber, Double balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
+        System.out.println("Account Activated!");
         accountState = new ActiveState();
 
     }
